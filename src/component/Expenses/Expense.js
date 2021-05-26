@@ -16,9 +16,9 @@ const Expense = (props) => {
    
     return (
         <div>
-            <div>
+            {/* <div>
                 <ExpenseFilter selected={filterYear} onfilterChange={filterChangeHandler} />
-            </div>
+            </div> */}
             <ExpensesList items={props.expenses} />
             {/* {filterExpenses.length === 0 && <p>No expense Found.</p>}
 
