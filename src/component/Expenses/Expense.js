@@ -1,16 +1,15 @@
-import React,{useState} from 'react'
-import ExpenseFilter from './ExpenseFilter'
+
 import ExpensesList from './ExpensesList';
 
 const Expense = (props) => {
-    const [filterYear, setFilterYear] = useState('2020');
-    const filterChangeHandler = (selectedYear) => {
-        setFilterYear(selectedYear);
-    }
+    //const [filterYear, setFilterYear] = useState('2020');
+    // const filterChangeHandler = (selectedYear) => {
+    //     setFilterYear(selectedYear);
+    // }
 
-    const filterExpenses = props.expenses.filter( expense => {
-        return expense.date === filterYear;
-    })
+    // const filterExpenses = props.expenses.filter( expense => {
+    //     return expense.date === filterYear;
+    // })
 
     
    
